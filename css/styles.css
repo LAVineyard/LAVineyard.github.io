@@ -107,12 +107,22 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
-main { padding-top: 3em; display: flex; flex-direction: column; width: 100%; height: 100vh; background-color: #c8c8c8; }
+header { display: block; width: 100%; background-color: black; }
 
-header nav { position: fixed; height: 3em; width: 100%; display: flex; align-items: center; justify-content: end; background-color: black; }
+header nav { margin-left: auto; height: 3em; width: 50%; display: flex; align-items: center; justify-content: space-evenly; }
 
 header nav a { padding: 0 1.5vw 0 1.5vw; font-size: large; color: white; text-decoration: none; }
 
-h1 { text-align: center; }
+main { padding-top: 3em; display: flex; flex-direction: column; width: 100%; height: auto; background-color: #c8c8c8; }
+
+#home { height: calc(80vh - 3em); padding-top: 20vh; }
+
+#projects { background-color: #032d3a; }
+
+#certifications { background-color: #c8c8c8; }
+
+section { text-align: center; }
+
+@media only screen and (min-width: 768px) { header { position: fixed; } }
 
 /*# sourceMappingURL=styles.css.map */
