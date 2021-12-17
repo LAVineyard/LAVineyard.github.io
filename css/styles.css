@@ -107,4 +107,12 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
+main { padding-top: 3em; display: flex; flex-direction: column; width: 100%; height: 100vh; background-color: #c8c8c8; }
+
+header nav { position: fixed; height: 3em; width: 100%; display: flex; align-items: center; justify-content: end; background-color: black; }
+
+header nav a { padding: 0 1.5vw 0 1.5vw; font-size: large; color: white; text-decoration: none; }
+
+h1 { text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
